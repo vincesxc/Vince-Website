@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingles, Vince Jasper Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a2e;
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        header {
+            background: #16213e;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            background: #0f3460;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        h1, h2 {
+            color: #e94560;
+        }
+        .section {
+            margin-bottom: 20px;
+            background: #1b1b2f;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            color: white;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #16213e;
+            border-radius: 8px;
+        }
+        .footer a {
+            color: #e94560;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ingles, Vince Jasper Personal Website</h1>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I'm Vince Jasper Ingles, a highly motivated ICT student with a passion for technology, computer systems, and networking. Skilled in coding, hardware setup, and network troubleshooting, with hands-on experience in software development, computer assembly, and IT fundamentals.</p>
+        </div>
+        <div class="section">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Vince Jasper Ingles</p>
+            <p><strong>Birthdate:</strong> February 5, 2008</p>
+            <p><strong>Address:</strong> San Joaquin, Sto. Tomas, Batangas</p>
+            <p><strong>Contact:</strong> 09952690514</p>
+            <p><strong>Email:</strong> inglesvincejasper@gmail.com</p>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Kinder:</strong> San Joaquin Elementary School (2012-2014)</p>
+            <p><strong>Elementary:</strong> San Joaquin Elementary School (2014-2020)</p>
+            <p><strong>Junior High School:</strong> Santa Clara Integrated National High School (2020-2024)</p>
+            <p><strong>Senior High School (ICT Strand):</strong> Almond Academy Foundation Inc. (2024-Present)</p>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: HTML, CSS, JavaScript, Python, C++, C#, Java</li>
+                <li>Software & Tools: Visual Studio Code, Microsoft Office, Basic Linux Terminal</li>
+                <li>Hardware & Networking: Computer assembly, RJ45 crimping, troubleshooting</li>
+                <li>Bootable USB & OS Installation: Installing Windows & configuring BIOS</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>1st Semester Lessons</h2>
+            <h3>Java</h3>
+            <ul>
+                <li>Debugging - Identifying and fixing errors in the code.</li>
+                <li>Reserved Words - Keywords in Java that have a predefined meaning and cannot be used for variable names (e.g., class, public, static).</li>
+                <li>Rules in Naming Java Variables - Variable names must start with a letter, $, or _. They cannot use Java keywords.</li>
+            </ul>
+            <h3>HTML</h3>
+            <ul>
+                <li>Hypertext Markup Language (HTML) - Created by Tim Berners-Lee, used to structure web pages.</li>
+                <li>URL (Uniform Resource Locator) - The address of a webpage.</li>
+                <li>Webpages & Websites - A webpage is a single document; a website is a collection of webpages.</li>
+                <li>HTML Elements - An element consists of an opening tag, content, and a closing tag.</li>
+                <li>Header Tags - <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> are used to define headings.</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p><strong>Submitted to Ma’am Janslyn Nalangan,</strong></p>
+            <p>Our hardworking and kind teacher who always does her best to teach us in the best way she can. Even though we can be stubborn sometimes, we will never forget you, Ma’am. Thank you for always guiding and supporting us. We truly appreciate everything you’ve taught us, and we will carry your lessons with us always.</p>
+            <p>Visit the website portal: <a href="http://localhost:8080/blee.html" target="_blank">Click Here</a></p>
+        </div>
+    </div>
+</body>
+</html>
